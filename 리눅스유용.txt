@@ -1,0 +1,3 @@
+1. .run 파일 실행 
+	# chmod a+x install_test.run
+	# ./install_test.run  or  sh install_tset.run
