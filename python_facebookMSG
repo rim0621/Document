@@ -1,0 +1,11 @@
+pip install fbchat
+
+from fbchat import Client
+fc = Client('______@gmail.com', '______') ##id & password
+friends = fc.searchForUsers('____')		##받는사람 이름 또는 이메일
+friend = friends[0]
+sent = fc.sendMessage("안녕 파이썬 프로그램에서 테스트 메시지 보내봄", 
+                                  thread_id=friend.uid, thread_type=ThreadType.USER)
+if sent:
+    print("Message sent successfully!")
+

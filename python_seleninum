@@ -2,7 +2,9 @@ seleninum install
  pip install selenium
 
 from selenium import webdriver 
-driver = webdriver.Firefox('경로설정(드라이버위치)') #파이어폭스 드라이버 생성
+driver = webdriver.Firefox('경로설정(드라이버위치)') #파이어폭스 드라이버 생성 
+#경로는 executable_path="/home/jeremy/Linux/geckodriver" 설정해줘야한다...(한참걸림...) 
+#https://github.com/mozilla/geckodriver/releases 드라이버 다운받기(firefox)
 driver.get("http://naver.com") #접속
 #로그인
 driver.switch_to.frame("loginframe") 

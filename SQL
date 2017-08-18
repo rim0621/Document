@@ -1,0 +1,6 @@
+
+#add column
+-> alter table [table_name] add [column_name] [type] [option];
+ ex) alter table company add num varchar(50) NULL;
+#update
+-> update table_name set column_name='change val' where 조건;
