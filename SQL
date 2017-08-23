@@ -4,3 +4,18 @@
  ex) alter table company add num varchar(50) NULL;
 #update
 -> update table_name set column_name='change val' where 조건;
+#create table 
+CREATE TABLE company
+(
+url VARCHAR(100) PRIMARY KEY,
+name VARCHAR(80) NULL,
+title VARCHAR(100) NULL,
+sector VARCHAR(32) NULL,
+career VARCHAR(32) NULL,
+edu VARCHAR(32) NULL,
+similarity int(12) NULL,
+salary VARCHAR(50) NULL,
+num VARCHAR(50) NULL
+);
+#info colum
+describe table_name;
