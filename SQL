@@ -4,6 +4,9 @@
  ex) alter table company add num varchar(50) NULL;
 #update
 -> update table_name set column_name='change val' where 조건;
+
+#create database
+CREATE DATABASE study_db default CHARACTER SET UTF8
 #create table 
 CREATE TABLE company
 (
@@ -19,3 +22,7 @@ num VARCHAR(50) NULL
 );
 #info colum
 describe table_name;
+
+#변수상태보기
+show variables like 'c%';
+

@@ -1,0 +1,27 @@
+
+
+sudo update-rc.d name defaults
+
+sudo update-rc.d name remove
+
+오류시 
+
+코드 #/bin/bash 아래에
+
+### BEGIN INIT INFO
+# Provides:          tightvncserver
+# Required-Start:    $syslog
+# Required-Stop:     $syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: vnc server
+# Description:
+#
+### END INIT INFO
+
+넣어준다
+
+ls /etc/rc?.d 등록을 확인 할수 있다 
+
+----------------------------------------------------------------------------
+

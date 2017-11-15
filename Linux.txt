@@ -69,7 +69,87 @@
 nmap -sn 192.168.0.0/24 
 	  (범위)
 
-7.
+7. find파일찾기
+
+ 루트부터 -> find /-name '*.pl'
+
+
+8. 디버깅
+
+	g++ -g(옵션)
+	gdb ./a.out
+	run(r)
+
+9. od -x (name)
+	16진수로 보여줌
+
+10. cat (name) > (wish name) 
+	카피기능
+11. cat > (name)
+	작성가능
+12. vim명령어
+	a-뒤에 sh+a :맨뒤
+	i-앞에 sh+i :맨앞
+	o-밑에줄 sh+o 윗줄
+	x-한글자 지우기 sh+x 앞글자지우기
+	r-대체 sh+r 연속적대체
+	u-복구
+	dd 후 .누루면 계속 지워짐
+	. -전에꺼 반복실행
+	yy - 복사(?)
+	p- 붙혀넣기(?)	
+	dw-한단어지움
+	:%s/(찾을단어)/(바꿀단어)
+	:w (/위치지정) test2.cpp ->다른이름 저장
+	:set 옵션보여줌
+	:set nu <-> :set nonu
+	:set list - 띄어쓰기 상황 보여줌
+	
+13.jpg -> pdf 변환
+	convert now.jpg kookmin.pdf
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
 
 
 
