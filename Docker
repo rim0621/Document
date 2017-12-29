@@ -8,6 +8,8 @@ $ sudo docker run -i -t --name hello ubuntu /bin/bash
 sudo docker run --name mariadb -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mariadb:latest
 sudo docker exec -it mariadb bash
 
+#web server
+sudo docker run --name server -d -p 8080:80 -v /home/webserver/docker-web/:/var/www/html emiller/aphace2
 
 #컨테이너 목록 출력
 sudo docker ps -a

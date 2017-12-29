@@ -107,11 +107,18 @@ nmap -sn 192.168.0.0/24
 	
 13.jpg -> pdf 변환
 	convert now.jpg kookmin.pdf
-
+14.버전 확인
+	grep . /etc/*-release
 	
 	
+15. iptables 추가 & 삭제
+	sudo iptables -A INPUT -p TCP --dport 5221 -j ACCEPT
+	sudo iptables -A INPUT -p udp --dport 5221 -j ACCEPT
 
-
+	sudo iptables -D INPUT -p TCP --dport 5221 -j ACCEPT
+	sudo iptables -D INPUT -p udp --dport 5221 -j ACCEPT
+16. 아이피 스캔
+	nmap 192.168.168.0/24
 
 
 
