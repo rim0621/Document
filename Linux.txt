@@ -120,7 +120,8 @@ nmap -sn 192.168.0.0/24
 16. 아이피 스캔
 	nmap 192.168.168.0/24
 
-
+17. error mounting 경우
+	sudo ntfsfix /dev/sdb1 
 
 
 
